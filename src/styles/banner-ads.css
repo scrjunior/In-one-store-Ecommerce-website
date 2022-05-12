@@ -1,0 +1,22 @@
+.bottom-banner {
+    display: grid;
+    grid-template-columns: 300px 1fr 1fr;
+    background-color: rgb(241, 241, 241);
+    height: 200px;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.bottom-title-banner {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+h2 {
+    margin: 0;
+}
+
+.shoes {
+    height: 200px;
+}
