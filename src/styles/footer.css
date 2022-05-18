@@ -1,0 +1,28 @@
+footer {
+    height: 400px;
+    background-color: #eeeeee;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.footer-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.newsletter-container {
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter {
+    padding-right: 100px;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer li {
+    list-style: none;
+}
