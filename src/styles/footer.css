@@ -7,16 +7,29 @@ footer {
 
 .footer-list {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
 }
 
 .newsletter-container {
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .newsletter {
-    padding-right: 100px;
+    padding: 10px 100px 10px 8px;
+    border: 1px solid #000;
+    outline: none;
+}
+
+footer button {
+    margin-left: 10px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+    font-size: 17px;
+    transition: opacity 0.15s;
 }
 
 footer ul {
@@ -25,4 +38,22 @@ footer ul {
 
 footer li {
     list-style: none;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+footer li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.media-icon-container {
+    display: flex;
+}
+
+.media-circle {
+    background-color: #000;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
 }
