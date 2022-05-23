@@ -3,11 +3,12 @@ footer {
     background-color: #eeeeee;
     margin-top: 50px;
     padding: 30px;
+    position: relative;
 }
 
 .footer-list {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .newsletter-container {
@@ -47,13 +48,19 @@ footer li:hover {
     cursor: pointer;
 }
 
-.media-icon-container {
+.follow-container {
     display: flex;
+    align-items: center;
 }
 
-.media-circle {
-    background-color: #000;
-    height: 40px;
-    width: 40px;
-    border-radius: 20px;
+.media-icon {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.copyright-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
