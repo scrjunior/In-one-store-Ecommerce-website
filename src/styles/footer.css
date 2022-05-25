@@ -1,5 +1,5 @@
 footer {
-    height: 400px;
+    height: 350px;
     background-color: #eeeeee;
     margin-top: 50px;
     padding: 30px;
@@ -96,26 +96,26 @@ h3 {
 
 @media(max-width:725px) {
     footer {
-        height: 400px;
+        height: 300px;
         background-color: #eeeeee;
         margin-top: 50px;
         padding: 30px;
         position: relative;
     }
-    footer ul {
-        display: flex;
+    .footer-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 5px;
+        padding-top: 20px;
+    }
+    .newsletter-container {
+        display: none;
     }
     footer li {
         margin-right: 20px;
     }
-    .footer-list {
-        display: flex;
-        padding-top: 20px;
-    }
-    h3,
     .payment-container,
     .media-icon-container,
-    .second-foot-list,
     .third-foot-list {
         display: none;
     }

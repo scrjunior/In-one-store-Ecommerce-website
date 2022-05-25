@@ -102,3 +102,30 @@ header .right-section img {
     height: 22px;
     opacity: 0.35;
 }
+
+@media (min-width:300px) and (max-width: 800px) {
+    header .right-section {
+        flex-direction: row;
+        margin-right: 20px;
+        font-size: 13px;
+        display: flex;
+        flex: 1;
+        justify-content: end;
+        align-items: center;
+    }
+    header .right-section img {
+        margin-left: 30px;
+    }
+    header .right-section span {
+        display: none;
+    }
+    .search-filter {
+        display: none;
+    }
+}
+
+@media (min-width:801px) and (max-width:999px) {}
+
+@media (min-width:1000px) and (max-width:1119px) {}
+
+@media (min-width:1120px) {}
