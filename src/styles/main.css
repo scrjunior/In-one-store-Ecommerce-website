@@ -1,50 +1,79 @@
-html,
-body {
-    padding: 0;
-    overflow-x: hidden;
-}
-
-body {
-    margin: 0;
-    font-family: 'Lato', sans-serif;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    font-size: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-weight: bold;
-}
-
-.category-hover,
-.nav-op1,
-.nav-op2,
-.nav-op3,
-.nav-op4 {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.category-hover {
-    position: relative;
-}
-
-.category-hover .category-list {
-    position: absolute;
-    top: 36px;
-    background-color: #ffffff;
-    z-index: 1;
-    visibility: hidden;
-}
-
-.category-hover:hover .category-list {
-    visibility: visible;
-}
-
-.category-hover ul {
-    list-style: none;
-    padding: 8px;
-    margin: 0;
-}
+    html,
+    body {
+        padding: 0;
+        overflow-x: hidden;
+    }
+    
+    body {
+        margin: 0;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: space-between;
+        font-size: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-weight: bold;
+    }
+    
+    .category-hover,
+    .nav-op1,
+    .nav-op2,
+    .nav-op3,
+    .nav-op4 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .category-hover {
+        position: relative;
+    }
+    
+    .category-hover ul {
+        list-style: none;
+        margin: 0;
+        padding-top: 8px;
+        padding-left: 10px;
+    }
+    
+    .category-hover li {
+        margin-bottom: 8px;
+    }
+    
+    .category-hover li:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
+    .category-hover .category-list {
+        position: absolute;
+        top: 38px;
+        left: -5px;
+        width: 200px;
+        padding-bottom: 20px;
+        background-color: #ffffff;
+        z-index: 1;
+        visibility: hidden;
+    }
+    
+    .category-hover:hover .category-list {
+        visibility: visible;
+    }
+    
+    .smart-hover {
+        position: relative;
+    }
+    
+    .smart-hover .smartphone-list {
+        position: absolute;
+        top: -5px;
+        left: 190px;
+        background-color: #ffffff;
+        visibility: hidden;
+    }
+    
+    .smart-hover:hover .smartphone-list {
+        visibility: visible;
+    }
