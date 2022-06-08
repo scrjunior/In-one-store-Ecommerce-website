@@ -103,9 +103,9 @@
     .products {
         grid-template-columns: 1fr 1fr;
     }
-    #product-preview-3,
-    #product-preview-4,
-    #product-preview-5 {
+    .product-preview-3,
+    .product-preview-4,
+    .product-preview-5 {
         display: none;
     }
 }
@@ -114,8 +114,8 @@
     .products {
         grid-template-columns: 1fr 1fr 1fr;
     }
-    #product-preview-4,
-    #product-preview-5 {
+    .product-preview-4,
+    .product-preview-5 {
         display: none;
     }
 }
@@ -124,7 +124,7 @@
     .products {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
-    #product-preview-4 {
+    .product-preview-4 {
         display: none;
     }
 }
