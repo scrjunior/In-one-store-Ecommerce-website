@@ -29,12 +29,12 @@
     border: 1px solid #dedede;
     border-radius: 5px;
     padding: 20px;
-    transition: box-shadow 0.30s;
+    transition: box-shadow 0.20s;
 }
 
 .product-preview:hover {
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
-    border: none;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.17);
 }
 
 .add-to-favo {

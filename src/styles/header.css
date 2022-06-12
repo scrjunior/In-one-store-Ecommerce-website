@@ -43,6 +43,11 @@ header .middle-section {
     margin-right: 40px;
 }
 
+.down-arrow {
+    font-size: 12px;
+    margin-left: 3px;
+}
+
 header .right-section {
     flex-direction: row;
     width: 200px;
@@ -71,6 +76,7 @@ header .right-section img {
 }
 
 .search-filter {
+    display: flex;
     height: 21px;
     padding: 10px;
     margin-right: -30px;
@@ -79,6 +85,11 @@ header .right-section img {
     z-index: 1;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    align-items: center;
+}
+
+.search-filter:hover {
+    cursor: pointer;
 }
 
 .search-bar {
